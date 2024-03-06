@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIMS Awareness Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0078a7;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #0078a7;
+        }
+        .event-info {
+            margin-bottom: 20px;
+        }
+        .tour-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .registration-btn {
+            display: block;
+            background-color: #0078a7;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VIMS Awareness Day</h1>
+    </header>
+
+    <section>
+        <div class="event-info">
+            <h2>Date and Time</h2>
+            <p>March 15, 2024 | 8:00 am - 5:00 pm</p>
+        </div>
+
+        <div class="event-info">
+            <h2>Exhibits and Tours</h2>
+            <ul class="tour-list">
+                <li>Boat Tour on the York River</li>
+                <li>Teaching Marsh Tour</li>
+                <li>Fish Collection Tour</li>
+                <li>Oyster Hatchery at the Acuff Center</li>
+            </ul>
+        </div>
+
+        <div class="event-info">
+            <h2>Meals</h2>
+            <p>Breakfast, Lunch, and Reception will be provided.</p>
+        </div>
+
+        <div class="event-info">
+            <h2>Free Swag</h2>
+            <p>Attendees will receive complimentary swag items.</p>
+        </div>
+
+        <a href="#" class="registration-btn">Register Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VIMS Awareness Day | William and Mary</p>
+    </footer>
+</body>
+</html>
